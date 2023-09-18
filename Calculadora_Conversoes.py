@@ -324,9 +324,9 @@ while True:
     print("11. Hexadecimal para Binario")
     print("12. Hexadecimal para Octal")
 
-    # print("---EXCESSOES---")
-    # print("13. Binario para Hexadecimal fração")
-    # print("14. Decimal para Binario fração")
+    print("---EXCESSOES---")
+    print("13. Binario para Hexadecimal fração")
+    print("14. Decimal para Binario fração")
 
     print("Fechar")
 
@@ -394,25 +394,25 @@ while True:
        print("Seu resutado é ",x)
 
 
-    # elif inputUser=="13":
-    #     print("binario para hexadecimal fração")
-    #     g=str(input("coloque um numero: "))
-    #     separados = g.split(',')
-    #     x=binarioParadecimal2(separados[0])
-    #     y=binarioParadecimal2(separados[1])
-    #     lista=[x,",",y]
-    #     resutado = ''.join(str(elemento) for elemento in lista)
-    #     print("Seu resutado é ",resutado)
+    elif inputUser=="13":
+        print("binario para hexadecimal fração")
+        g=str(input("coloque um numero: "))
+        separados = g.split(',')
+        x=binarioParadecimal2(separados[0])
+        y=binarioParadecimal2(separados[1])
+        lista=[x,",",y]
+        resutado = ''.join(str(elemento) for elemento in lista)
+        print("Seu resutado é ",resutado)
 
-    # elif inputUser=="14":
-    #     print("decimal fração para binario fração")
-    #     g=str(input("coloque um numero: "))
-    #     separados = g.split(',')
-    #     x=decimalParabinario2(int(separados[0]))
-    #     y=decimalParabinario2(int(separados[1]))
-    #     lista=[x,",",y]
-    #     resutado = ''.join(str(elemento) for elemento in lista)
-    #     print("Seu resutado é ",resutado)
+    elif inputUser=="14":
+        print("decimal fração para binario fração")
+        g=str(input("coloque um numero: "))
+        separados = g.split(',')
+        x=decimalParabinario2(int(separados[0]))
+        y=decimalParabinario2(int(separados[1]))
+        lista=[x,",",y]
+        resutado = ''.join(str(elemento) for elemento in lista)
+        print("Seu resutado é ",resutado)
 
     elif inputUser=="sair":
         print("Desligado")
