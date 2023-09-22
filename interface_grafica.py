@@ -1,7 +1,6 @@
 import tkinter as tk
 # decimal para octal
 
-
 def decimalParabinario():
     x = int(entry.get())
     resultado_binario = ""
