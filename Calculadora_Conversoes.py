@@ -113,7 +113,7 @@ def binarioParahexadecimal():
     return hexadecimal
 
 
-
+4
 #octal para decimal
 def octalParadecimal():
     x=str(input("coloque um numero :"))
